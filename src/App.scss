@@ -1,0 +1,33 @@
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --hoverPink: hsl(322, 87%, 40%);
+    --veryDarkCyan: hsl(192, 100%, 9%);
+    --veryPaleBlue: hsl(207, 100%, 98%);
+    --headingFontFamily:  'Poppins', sans-serif;
+    --bodyFontFamily: 'Raleway', sans-serif;
+     --bolder: 700;
+     --bold: 600;
+     --light: 400;
+     --darkMode: #1B2331;
+}
+
+body {
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+    font-family: var(--bodyFontFamily);
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+ ul * {
+    list-style: none;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+

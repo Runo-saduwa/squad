@@ -1,0 +1,105 @@
+.userSection {
+    background: var(--veryPaleBlue);
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+   display: grid; 
+   grid-template-columns: 1fr;
+   background-repeat: no-repeat;
+   text-align: center;
+
+}
+.svgContainer {
+    width: 100%;
+    overflow: hidden;
+}
+
+.topPicture2 {
+    position: relative;
+    bottom: -10px;
+}
+
+.topSvg{
+  background: url('../../images/bg-section-top-mobile-2.svg');
+  height: 100px;
+  background-repeat: no-repeat;
+}
+.bottomSvg{
+  background: url('../../images/bg-section-bottom-mobile-2.svg');
+  background-repeat: no-repeat;
+  height: 100px;
+}
+
+.userSectionImg img {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.userContent {
+    text-align: center;
+    padding-bottom: 70px;
+}
+ 
+.userContent h1 {
+    padding-top: 50px;
+}
+ 
+.userContent p {
+    width: 90%;
+    margin: 0 auto;
+    color:var(--veryDarkCyan)
+}
+ 
+
+
+
+@media (min-width: 1000px) {
+    .userSection {
+        margin: 0 auto;
+       grid-template-areas: 'left right';
+       grid-template-columns: 1fr 1fr;
+    
+    }
+    .topSvg{
+      background: url('../../images/bg-section-top-desktop-2.svg');
+      height: 150px;
+      background-repeat: no-repeat;
+      width: 100%;
+      background-size: cover;
+      background-size: center;
+    }
+    .bottomSvg{
+      background: url('../../images/bg-section-bottom-desktop-2.svg');
+      background-repeat: no-repeat;
+      height: 100px;
+      width: 100%;
+      background-size:cover;
+      background-position: center;
+    }
+    
+    .userSectionImg {
+        grid-area: right;
+    }
+    .userContent {
+         grid-area: left;
+         text-align: left;
+         padding: 100px 100px;
+    }
+     
+    .userSection h1 {
+        padding: 0px;
+    }
+    .userSection img {
+        width: 60%;
+        margin: 0 auto;
+       
+    }
+    .userContent p {
+        width:100%;
+        margin: 0 auto;
+        font-size: 18px;
+        color:var(--veryDarkCyan)
+    }
+     
+}
+

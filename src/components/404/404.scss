@@ -1,0 +1,60 @@
+@import "../../styles/base.scss";
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  font-family: $code;
+  text-align: center;
+  color: $white;
+  background: var(--darkMode);
+
+
+    .not-foundbtn {
+        width: 100px;
+        padding: 0.5rem;
+        color: $white;
+        background: var(--pink);
+        border-radius: 50px;
+        animation: float 3s ease-in-out infinite;
+        transition: all 0.25s ease 0s;
+
+        b {
+            font-size: 2rem;
+        }
+        &:hover {
+          opacity: 0.9;
+          transition: all 0.25s ease 0s;
+          box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .notfound-message {
+            padding: 0 50px;
+        }
+    
+        @keyframes float {
+          0% {
+            transform: translatey(0px);
+          }
+          50% {
+            transform: translatey(-10px);
+          }
+          100% {
+            transform: translatey(0px);
+          }
+        }
+  }
+
+  p {
+    &:nth-of-type(2) {
+      font-size: 12px;
+      color: $white;
+     width: 50%;
+
+    }
+  }
+}

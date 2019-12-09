@@ -1,0 +1,34 @@
+.statSection {
+    width: 100%;
+    margin: 0 auto;
+}
+.statBlock {
+    width: 50%;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+.statDescription {
+  text-align: center;
+}
+.stat {
+    text-align: center;
+    font-size: 4rem;
+    margin: 0 auto;
+}
+
+.statLogo {
+    width: 30px;
+    display: block;
+}
+
+
+@media (min-width: 700px) {
+    .statSection {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .statLogo {
+        margin-left: 100px;
+    }
+}
