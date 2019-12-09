@@ -29,5 +29,18 @@ body {
 a {
     text-decoration: none;
 }
-  
+@media (min-width: 1200px) {
+      
+    picture {
+      display: none;
+    }
+    .footerSvg {
+       display: none;
+    }
+
+     
+}
+
+
+
 

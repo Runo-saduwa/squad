@@ -1,8 +1,6 @@
 import React from 'react';
 import './Footer.scss';
-import phone from '../../images/icon-phone.svg';
-import email from '../../images/icon-email.svg';
-import logo from '../../images/logo.jpg';
+
 
 
 const Footer = () => {
